@@ -1,5 +1,5 @@
 /**
- * A module to get the the filename and dirname of the current file
+ * A module to get the the filename or dirname of the current file
  *
  * ```ts
  * import { dirname, filename } from "@file-info/esm-file-info"

@@ -2,6 +2,10 @@
     "name": "@sicasta/esm-file-info",
     "version": "1.0.0",
     "exports": "./src/mod.ts",
+    "publish": {
+        "include": ["src/**/*", "LICENSE", "README.md"],
+        "exclude": ["src/test", ".vscode"]
+    },
     "tasks": {
         "test": "deno test"
     },
