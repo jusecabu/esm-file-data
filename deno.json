@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "exports": "./src/mod.ts",
     "publish": {
-        "include": ["src/**/*", "LICENSE", "README.md"],
+        "include": ["src/**/*", "LICENSE", "README.md", "index.d.ts"],
         "exclude": ["src/test", ".vscode"]
     },
     "tasks": {
