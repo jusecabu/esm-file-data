@@ -1,16 +1,9 @@
 {
     "name": "@sicasta/esm-file-info",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exports": "./src/mod.ts",
     "publish": {
-        "include": [
-            "src/**/*",
-            "LICENSE",
-            "README.md",
-            "index.d.ts",
-            "deno.json"
-        ],
-        "exclude": ["src/test", ".vscode"]
+        "exclude": ["test", ".vscode", "deno.lock"]
     },
     "tasks": {
         "test": "deno test"
