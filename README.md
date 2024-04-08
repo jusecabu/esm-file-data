@@ -1,5 +1,5 @@
 # esm-file-info
-A module to get the the filename or dirname of the current file most exactly for node
+A module to get the the filename or dirname of the current file most exactly for node.
 
 [![JSR](https://jsr.io/badges/@sicasta/esm-file-info)](https://jsr.io/@sicasta/esm-file-info)
 [![JSR Score](https://jsr.io/badges/@sicasta/esm-file-info/score)](https://jsr.io/@sicasta/esm-file-info)
